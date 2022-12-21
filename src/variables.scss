@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+
+$col-30: 30%;
+$lightglcol: rgb(229, 243, 229);
+$darkgcol: #074506e6;
+$mainbg: rgba(26, 23, 23, 0.796);
+$greenScreen: #00B140;
+$col-47-5: 47.5%;
+
+.col-47-5 {
+  width: $col-47-5;
+}
+.greenScreen {
+  color: $greenScreen;
+}
+.greenColor{
+  color: $lightglcol;
+}
+.darkgcol{
+  color: $darkgcol;
+}
+.vh-50{
+  height: 50vh;
+}
+.vh-30{
+  height: 30vh;
+}
+@media screen and (min-width: 768px) {
+    .col-30 {
+        width: $col-30;
+    }
+}
