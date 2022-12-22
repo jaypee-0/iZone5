@@ -16,7 +16,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-12 col-sm-6 col-lg-3">
-                        <strong>Contact Us</strong>
+                        <strong>Contact Me</strong>
                         <ul className="mt-3">
                             <li>Call: 08086149495</li>
                             <li>Address: Lagos, Nigeria</li>

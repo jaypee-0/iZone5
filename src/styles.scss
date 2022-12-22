@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Finlandica', sans-serif;
+    font-size: 18px;
 }
 
 $navHeight: 80px;
@@ -36,3 +37,25 @@ $navHeight: 80px;
         color: rgba(245, 245, 245, 0.836);
     }
 } 
+
+#recommendation{
+    a{
+        color: #000;
+    }
+    a:hover{
+        color: rgba(0, 0, 0, 0.623);
+    }
+}
+.boxContainer{
+    width: 24%;
+    padding: 1rem 20px;
+    @media screen and (max-width: 1024px) {
+        width: 33%; 
+    }
+    @media screen and (max-width: 768px) {
+        width: 49%; 
+    }
+    @media screen and (max-width: 520px) {
+        width: 48.5%; 
+    }
+}

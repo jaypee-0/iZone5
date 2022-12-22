@@ -1,12 +1,12 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Home from './routes/Home';
-import Error from './routes/Error';
 import Footer from './components/Footer/Footer';
-import Recommendation from './routes/Recommendation';
-import Motivation from './routes/Motivation';
+import Home from './routes/Home';
 import Experience from './routes/Experience';
+import Motivation from './routes/Motivation';
+import Recommendation from './routes/Recommendation';
+import Error from './routes/Error';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
