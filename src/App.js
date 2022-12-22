@@ -6,6 +6,7 @@ import Experience from './routes/Experience';
 import Motivation from './routes/Motivation';
 import Recommendation from './routes/Recommendation';
 import Error from './routes/Error';
+import "./components/Fontawesome";
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
